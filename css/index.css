@@ -144,9 +144,17 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
-/* RESET END */
+/* ALL RESET END */
 
-/* header - navigation bar */
+
+
+
+
+
+
+
+/* header - navigation bar (Home and About) */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -156,24 +164,25 @@ header {
 
 header nav {
     display: flex;
-    width: 80%;
+    width: 100%;
     justify-content: space-around;
     align-items: flex-end;
 }
 
-/* link about.html */
+/* Link Tab about.html (Home and About) */
+
 header nav div a {
     color: black;
     text-decoration: none;
 }
 
-/* image - jumbo */
+/* Image - jumbo */
 
 #jumbo {
     margin-bottom: 1rem;
 }
 
-/* box background color */
+/* Box background color */
 
 #box1 {background-color: teal;}
 #box2 {background-color: gold;}
@@ -186,7 +195,7 @@ header nav div a {
 #box9 {background-color: indigo;}
 #box10 {background-color: dodgerblue;}
 
-/* about pages starts */
+/* About page starts */
 
 #about {
     display: flex;
@@ -200,7 +209,7 @@ header nav div a {
     margin-bottom: 1rem;
 }
 
-.container, .container-about-page{
+.container, .container-about-page {
     width: 800px;
     margin: 0 auto;
 }
@@ -208,14 +217,14 @@ header nav div a {
 .container-about-page {
     display: flex;
     flex-wrap: wrap;
-    justify-content: 
 }
 
 .container-about-page section {
     display: flex;
     flex-direction: column;
-    width: 50%;
-    padding: 1rem;
+    width: 48%;
+    padding: 1rem 0 1rem;
+    margin: .5rem;
     border-bottom: dotted 1px black; 
 }
 
@@ -223,6 +232,7 @@ header nav div a {
     padding-bottom: 1rem;
 }
 
+/* Tab Learn More */
 .learn {
     border: solid 2px black;
     align-self: flex-start;
